@@ -1,0 +1,16 @@
+if SHIELD_SHFTONE46SW_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "SHFT.one 46sw"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_SHFTONE46SW_LEFT || SHIELD_SHFTONE46SW_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
