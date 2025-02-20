@@ -101,7 +101,7 @@
         media_num_layer {
             display-name = "Media & Num Pad";
             bindings = <
-                &none     &kp C_PP  &kp C_VOL_DOWN &kp C_VOL_UP &none       &none          &none       &none       &none       &none       &none       &none       
+                &none       &none       &none       &none       &none       &none          &none       &none       &none       &none       &none       &none       
                 &none       &none       &none       &none       &none       &none          &none       &none       &none       &none       &none       &none
                 &none       &none       &none       &none       &none       &none          &none       &none       &none       &none       &none       &none
                 &none       &none       &none       &none       &none       &none          &none       &none       &none       &none       &none       &none
